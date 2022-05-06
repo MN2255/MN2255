@@ -1,0 +1,249 @@
+.navbar{
+    display: inline-block;
+    
+    width: calc(118.5% - 250px);
+    height: 50px;
+    background: #000;
+    box-shadow: 0px -2px 5px 5px #888888;
+}
+.cover{
+  background-size: cover;
+}
+.coverimg{
+  width: 450px;
+  height: 100px;
+}
+.right{
+    float: right;
+}
+.lin{
+    
+    display: inline-block;
+    padding: 0 10px;
+    height: 50px;
+    border-right: 1px solid #2c2c2c;
+    line-height: 3.3;
+    font-family: droidLight,arial;
+    font-size: 16px;
+    color: #fff;
+    background: #000;
+    position: relative;
+    outline: 0px;
+}
+a:link { text-decoration: none; }
+
+.gallstyle{
+
+    padding: 15px;
+    background-color:aliceblue;
+    top:30px;
+    width: 50px;
+  }
+  .big{
+    
+    padding-right: 45px;
+    padding-top: 153px;
+  }
+  .big2{
+    float: left;
+    padding-right: 1px;
+    padding-top: 2px;
+  }
+  .big3{
+    float: left;
+    padding-right: 0px;
+    padding-top: 2px;
+  }
+  .big4{
+    float: left;
+    padding-right: 0px;
+    padding-top: 2px;
+  }
+  .faceimage {
+    
+    margin: 3px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 180px;
+    width: 19%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  
+  
+ .faceimage img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .topcont{
+    font-size: 13px;
+    color: #565656;
+    margin: 0 0 2px;
+  }
+  .side{
+    width: 300%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+  }
+
+  /**/
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .main {
+    max-height: 550px;;
+    background-color: #262626;
+    color: white;
+    font-size: 38pt;
+    text-align: center;
+    line-height: 550px;
+  }
+  footer{
+    position: absolute;
+    bottom: -850px;
+  }
+  .footer-distributed{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+  
+    padding: 55px 50px;
+    margin-top: 80px;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .footer-distributed .footer-left{
+    width: 40%;
+  }
+  
+  .footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+  }
+  
+  .footer-distributed h3 span{
+    color:  #5383d3;
+  }
+  
+  
+  
+  
+  
+  
+  .footer-distributed .footer-company-name{
+    color:  #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  
+  .footer-distributed .footer-center{
+    width: 35%;
+  }
+  
+  .footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+  }
+  
+  .footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  .footer-distributed .footer-center p a{
+    color:  #5383d3;
+    text-decoration: none;;
+  }
+  
+  .footer-distributed .footer-right{
+    width: 20%;
+  }
+  
+  .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-distributed .footer-icons{
+    margin-top: 25px;
+  }
+  
+  .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+  
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+  
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+  /*aside*/
+#aside{
+  position: absolute;
+  width: 75px;
+  height: 250px;
+  top:370px;
+  left: 70px;
+}
+  
